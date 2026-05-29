@@ -12,7 +12,7 @@ Financial institutions face significant risk when borrowers fail to repay loans.
 
 ## 📂 Dataset
 
-- **Source:** [Home Credit Default Risk — Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk)
+- **Source:** [Loan Application Dataset — Kaggle](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset)
 - **Size:** 307,511 rows × 122 columns
 - **Features:** 67 numerical + 55 categorical columns
 - **Target:** Binary — `1` (defaulted) / `0` (repaid)
@@ -78,7 +78,7 @@ Applied **Synthetic Minority Oversampling Technique (SMOTE)** with two strategie
 Used **Recursive Feature Elimination (RFE)** with a Decision Tree base estimator to reduce features from 122/75 down to the **top 30 most important features**.
 
 ### 6. Model Building
-Trained and evaluated **6 classification models** on both datasets (with and without RFE):
+Trained and evaluated **7 classification models** on both datasets (with and without RFE):
 
 | Model | Description |
 |-------|-------------|
@@ -109,7 +109,7 @@ Trained and evaluated **6 classification models** on both datasets (with and wit
 ### 75-Column Dataset
 Similar pattern observed; Gradient Boosting consistently performed best across both datasets.
 
-### ✅ Final Model: **Gradient Boosting Classifier**
+### ✅ Final Model: Gradient Boosting Classifier
 - **Train F1 Score: 0.933**
 - **Test F1 Score: 0.932**
 - Selected for its balance of performance and generalization (no overfitting)
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Download the dataset
-Download `application_data.csv` from [Kaggle](https://www.kaggle.com/competitions/home-credit-default-risk/data) and place it in the `data/` folder.
+Download the dataset from [Kaggle](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset) and place it in the `data/` folder.
 
 ### 4. Run the notebooks in order
 ```
@@ -161,4 +161,4 @@ Download `application_data.csv` from [Kaggle](https://www.kaggle.com/competition
 
 ## 📄 License
 
-This project is for educational purposes. The dataset belongs to [Home Credit](https://www.kaggle.com/competitions/home-credit-default-risk) via Kaggle.
+This project is for educational purposes. The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset).
