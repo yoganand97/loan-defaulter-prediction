@@ -159,22 +159,6 @@ Download `application_data.csv` from [Kaggle](https://www.kaggle.com/competition
 
 ---
 
-## 👥 Team
-
-This was a group capstone project completed at **Great Lakes Institute of Management, Hyderabad (2021)**:
-
-- **Yoganand Kodali**
-- G. Karthik Kumar
-- N.V.S. Krishna Saketh
-- Kunta Nithish Reddy
-- Mahesh Kodhumuri
-- Paramayyagari Sai Kedaranath Reddy
-- Jarupula Sri Bala Nikhil
-
-**Mentor:** Mr. Ankush Bansal
-
----
-
 ## 📄 License
 
 This project is for educational purposes. The dataset belongs to [Home Credit](https://www.kaggle.com/competitions/home-credit-default-risk) via Kaggle.
