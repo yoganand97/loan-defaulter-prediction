@@ -10,7 +10,7 @@ This folder holds the processed dataset used for modelling.
 
 ### How to get the raw data
 
-1. Download `application_data.csv` from [Kaggle — Loan Application Dataset]([https://www.kaggle.com/competitions/home-credit-default-risk/data](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset))
+1. Download the dataset from [Kaggle — Loan Application Dataset](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset)
 2. Place it in this `data/` folder
 3. Run the EDA notebooks to reproduce the preprocessing steps
 
