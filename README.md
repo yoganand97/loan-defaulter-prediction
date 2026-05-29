@@ -1,16 +1,16 @@
-# 🏦 Loan Defaulter Prediction
+# Loan Defaulter Prediction
 
 A machine learning project to predict whether a loan applicant will default on repayment, built as part of the **Post Graduate Diploma in Data Science & Engineering** at Great Lakes Institute, Hyderabad.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Financial institutions face significant risk when borrowers fail to repay loans. The goal of this project is to build a classification model that predicts whether a customer will **default on their loan repayment** (TARGET = 1) or **repay successfully** (TARGET = 0), using applicant data at the time of loan application.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source:** [Loan Application Dataset — Kaggle](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset)
 - **Size:** 307,511 rows × 122 columns
@@ -20,7 +20,7 @@ Financial institutions face significant risk when borrowers fail to repay loans.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 loan-defaulter-prediction/
@@ -44,7 +44,7 @@ loan-defaulter-prediction/
 
 ---
 
-## 🔍 Approach & Methodology
+## Approach & Methodology
 
 ### 1. Data Understanding & Splitting
 The dataset contained **50 building/apartment-related columns** with ~50% missing values, tied to whether `HOUSETYPE_MODE` was null. This led to two parallel analysis paths:
@@ -92,7 +92,7 @@ Trained and evaluated **7 classification models** on both datasets (with and wit
 
 ---
 
-## 📊 Results
+## Results
 
 ### 122-Column Dataset
 
@@ -109,7 +109,7 @@ Trained and evaluated **7 classification models** on both datasets (with and wit
 ### 75-Column Dataset
 Similar pattern observed; Gradient Boosting consistently performed best across both datasets.
 
-### ✅ Final Model: Gradient Boosting Classifier
+### Final Model: Gradient Boosting Classifier
 - **Train F1 Score: 0.933**
 - **Test F1 Score: 0.932**
 - Selected for its balance of performance and generalization (no overfitting)
@@ -118,7 +118,7 @@ Similar pattern observed; Gradient Boosting consistently performed best across b
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -132,7 +132,7 @@ Similar pattern observed; Gradient Boosting consistently performed best across b
 
 ---
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 ### 1. Clone the repository
 ```bash
@@ -159,6 +159,6 @@ Download the dataset from [Kaggle](https://www.kaggle.com/datasets/ramakrushnamo
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes. The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/ramakrushnamohapatra/loan-application-dataset).
